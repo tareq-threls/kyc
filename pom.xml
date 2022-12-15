@@ -17,6 +17,8 @@
             <groupId>com.sumsub.sns</groupId>
             <artifactId>sns-core</artifactId>
             <version>1.19.8</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/sns-core-1.19.8.aar</systemPath>
         </dependency>
 
         <dependency>
