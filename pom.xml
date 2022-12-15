@@ -10,6 +10,10 @@
     <artifactId>idensic-mobile-sdk</artifactId>
     <version>1.19.8</version>
 
+    <groupId>com.sumsub.sns</groupId>
+    <artifactId>sns-core</artifactId>
+    <version>1.19.8</version>
+
     <dependencies>
 
 
