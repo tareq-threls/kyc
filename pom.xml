@@ -7,19 +7,16 @@
     <!--  do_not_remove: published-with-gradle-metadata  -->
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.sumsub.sns</groupId>
-    <artifactId>idensic-mobile-sdk</artifactId>
+    <artifactId>parent</artifactId>
     <version>1.19.8</version>
+    <packaging>pom</packaging>
 
-
+    <modules>
+        <module>idensic-mobile-sdk</module>
+        <module>sns-core</module>
+    </modules>
 
     <dependencies>
-        <dependency>
-            <groupId>com.sumsub.sns</groupId>
-            <artifactId>sns-core</artifactId>
-            <version>1.19.8</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/sns-core-1.19.8.aar</systemPath>
-        </dependency>
 
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
