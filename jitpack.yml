@@ -1,3 +1,5 @@
 install:
-  - FILE="-Dfile=idensic-mobile-sdk.aar"
+  - FILE="-Dfile=idensic-mobile-sdk/idensic-mobile-sdk.aar"
   - mvn install:install-file $FILE -DgroupId=com.sumsub.sns -DartifactId=idensic-mobile-sdk -Dversion=1.19.8 -Dpackaging=aar -DpomFile=pom.xml
+  - FILE="-Dfile=idensic-sns-core/sns-core.aar"
+  - mvn install:install-file $FILE -DgroupId=com.sumsub.sns -DartifactId=sns-core -Dversion=1.19.8 -Dpackaging=aar -DpomFile=pom.xml
