@@ -14,6 +14,7 @@
     <modules>
         <module>idensic-mobile-sdk</module>
         <module>sns-core</module>
+        <module>sns-logger</module>
     </modules>
 
     <dependencies>
