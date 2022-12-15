@@ -19,12 +19,7 @@
 
 
     <dependencies>
-        <dependency>
-            <groupId>com.sumsub.sns</groupId>
-            <artifactId>sns-logger</artifactId>
-            <version>1.19.8</version>
-            <scope>compile</scope>
-        </dependency>
+
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
             <artifactId>kotlin-stdlib</artifactId>
