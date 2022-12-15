@@ -37,7 +37,42 @@
             <version>1.3.0</version>
             <scope>runtime</scope>
         </dependency>
-
+        <dependency>
+            <groupId>de.peilicke.sascha</groupId>
+            <artifactId>android-customtabs</artifactId>
+            <version>3.0.3</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.sumsub.sns</groupId>
+            <artifactId>sns-camera-photo-document-picker</artifactId>
+            <version>1.19.8</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.sumsub.sns</groupId>
+            <artifactId>sns-camera-video-selfie</artifactId>
+            <version>1.19.8</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.sumsub.sns</groupId>
+            <artifactId>sns-camera-selfie-with-document-picker</artifactId>
+            <version>1.19.8</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.sumsub.sns</groupId>
+            <artifactId>sns-nfc</artifactId>
+            <version>1.19.8</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.sumsub.sns</groupId>
+            <artifactId>idensic-mobile-sdk-prooface</artifactId>
+            <version>1.19.8</version>
+            <scope>runtime</scope>
+        </dependency>
         <dependency>
             <groupId>com.google.android.exoplayer</groupId>
             <artifactId>exoplayer</artifactId>
