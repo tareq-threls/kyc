@@ -9,7 +9,7 @@
     <groupId>com.sumsub.sns</groupId>
     <artifactId>idensic-mobile-sdk</artifactId>
     <version>1.19.8</version>
-    <packaging>aar</packaging>
+
     <dependencies>
 
 
