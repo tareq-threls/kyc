@@ -12,15 +12,16 @@
     <packaging>pom</packaging>
 
     <modules>
-        <!-- <module>idensic-mobile-sdk</module>
+
+        <module>idensic-mobile-sdk-prooface</module>
+        <module>idensic-mobile-sdk</module>
         <module>sns-core</module>
         <module>sns-logger</module>
         <module>sns-camera</module>
         <module>sns-camera-selfie-with-document-picker</module>
 
-        <module>sns-camera-photo-document-picker</module> -->
-        <!-- <module>sns-camera-video-selfie</module> -->
-        <module>idensic-mobile-sdk-prooface</module>
+        <module>sns-camera-photo-document-picker</module>
+        <module>sns-camera-video-selfie</module>
     </modules>
 
     <dependencies>
