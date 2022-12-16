@@ -25,12 +25,12 @@
             <version>1.6.20</version>
             <scope>compile</scope>
         </dependency>
-        <dependency>
+        <!-- <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
             <artifactId>kotlin-parcelize-runtime</artifactId>
             <version>1.6.20</version>
             <scope>runtime</scope>
-        </dependency>
+        </dependency> -->
         <dependency>
             <groupId>androidx.browser</groupId>
             <artifactId>browser</artifactId>
