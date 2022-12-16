@@ -18,8 +18,8 @@
         <module>sns-camera</module>
         <module>sns-camera-selfie-with-document-picker</module>
 
-        <!-- <module>sns-camera-photo-document-picker</module> 
-        <module>sns-camera-video-selfie</module>
+        <module>sns-camera-photo-document-picker</module>
+        <!-- <module>sns-camera-video-selfie</module>
         <module>idensic-mobile-sdk-prooface</module> -->
     </modules>
 
