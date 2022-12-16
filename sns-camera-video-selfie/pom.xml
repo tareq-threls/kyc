@@ -12,13 +12,13 @@
         <version>1.19.8</version>
     </parent>
 
-    <artifactId>idensic-mobile-sdk</artifactId>
+    <artifactId>sns-camera-video-selfie</artifactId>
+
 
 
 
 
     <dependencies>
-
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
             <artifactId>kotlin-stdlib-jdk8</artifactId>
@@ -31,40 +31,9 @@
             <version>1.6.20</version>
             <scope>runtime</scope>
         </dependency>
-        <dependency>
-            <groupId>androidx.browser</groupId>
-            <artifactId>browser</artifactId>
-            <version>1.3.0</version>
-            <scope>runtime</scope>
-        </dependency>
-        <dependency>
-            <groupId>de.peilicke.sascha</groupId>
-            <artifactId>android-customtabs</artifactId>
-            <version>3.0.3</version>
-            <scope>runtime</scope>
-        </dependency>
-
-
-
-        <dependency>
-            <groupId>com.sumsub.sns</groupId>
-            <artifactId>sns-nfc</artifactId>
-            <version>1.19.8</version>
-            <scope>runtime</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>com.google.android.exoplayer</groupId>
-            <artifactId>exoplayer</artifactId>
-            <version>2.14.2</version>
-            <scope>runtime</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.jmrtd</groupId>
-            <artifactId>jmrtd</artifactId>
-            <version>0.7.34</version>
-            <scope>runtime</scope>
-        </dependency>
 
     </dependencies>
+
+
+
 </project>
