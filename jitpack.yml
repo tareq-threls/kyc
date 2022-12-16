@@ -15,5 +15,5 @@ install:
   - mvn install:install-file $FILE -DgroupId=com.sumsub.sns -DartifactId=sns-camera-photo-document-picker -Dversion=1.19.8 -Dpackaging=aar -DpomFile=sns-camera-photo-document-picker/pom.xml
   - FILE="-Dfile=sns-camera-video-selfie/sns-camera-video-selfie.aar"
   - mvn install:install-file $FILE -DgroupId=com.sumsub.sns -DartifactId=sns-camera-video-selfie -Dversion=1.19.8 -Dpackaging=aar -DpomFile=sns-camera-video-selfie/pom.xml
-#  - FILE="-Dfile=idensic-mobile-sdk-prooface/idensic-mobile-sdk-prooface.aar"
-#   - mvn install:install-file $FILE -DgroupId=com.sumsub.sns -DartifactId=idensic-mobile-sdk-prooface -Dversion=1.19.8 -Dpackaging=aar -DpomFile=idensic-mobile-sdk-prooface/pom.xml
+ - FILE="-Dfile=idensic-mobile-sdk-prooface/idensic-mobile-sdk-prooface.aar"
+  - mvn install:install-file $FILE -DgroupId=com.sumsub.sns -DartifactId=idensic-mobile-sdk-prooface -Dversion=1.19.8 -Dpackaging=aar -DpomFile=idensic-mobile-sdk-prooface/pom.xml
