@@ -15,8 +15,8 @@
         <module>idensic-mobile-sdk</module>
         <module>sns-core</module>
         <module>sns-logger</module>
-        <!-- <module>sns-camera</module>
-        <module>sns-camera-photo-document-picker</module>
+        <module>sns-camera</module>
+        <!-- <module>sns-camera-photo-document-picker</module> 
         <module>sns-camera-selfie-with-document-picker</module>
         <module>sns-camera-video-selfie</module>
         <module>idensic-mobile-sdk-prooface</module> -->
@@ -42,12 +42,12 @@
             <version>1.3.0</version>
             <scope>runtime</scope>
         </dependency>
-        <!-- <dependency>
+        <dependency>
             <groupId>de.peilicke.sascha</groupId>
             <artifactId>android-customtabs</artifactId>
             <version>3.0.3</version>
             <scope>runtime</scope>
-        </dependency> -->
+        </dependency>
         <!-- <dependency>
             <groupId>com.sumsub.sns</groupId>
             <artifactId>sns-camera-photo-document-picker</artifactId>

@@ -7,8 +7,8 @@ install:
   - mvn install:install-file $FILE -DgroupId=com.sumsub.sns -DartifactId=sns-core -Dversion=1.19.8 -Dpackaging=aar -DpomFile=sns-core/pom.xml
   - FILE="-Dfile=sns-logger/sns-logger.aar"
   - mvn install:install-file $FILE -DgroupId=com.sumsub.sns -DartifactId=sns-logger -Dversion=1.19.8 -Dpackaging=aar -DpomFile=sns-logger/pom.xml
-#   - FILE="-Dfile=sns-camera/sns-camera.aar"
-#   - mvn install:install-file $FILE -DgroupId=com.sumsub.sns -DartifactId=sns-camera -Dversion=1.19.8 -Dpackaging=aar -DpomFile=sns-camera/pom.xml
+  - FILE="-Dfile=sns-camera/sns-camera.aar"
+  - mvn install:install-file $FILE -DgroupId=com.sumsub.sns -DartifactId=sns-camera -Dversion=1.19.8 -Dpackaging=aar -DpomFile=sns-camera/pom.xml
 #   - FILE="-Dfile=sns-camera-selfie-with-document-picker/sns-camera-selfie-with-document-picker.aar"
 #   - mvn install:install-file $FILE -DgroupId=com.sumsub.sns -DartifactId=sns-camera-selfie-with-document-picker -Dversion=1.19.8 -Dpackaging=aar -DpomFile=sns-camera-selfie-with-document-picker/pom.xml
 #   - FILE="-Dfile=sns-camera-photo-document-picker/sns-camera-photo-document-picker.aar"
