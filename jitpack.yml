@@ -17,3 +17,5 @@ install:
   - mvn install:install-file $FILE -DgroupId=com.sumsub.sns -DartifactId=sns-camera-photo-document-picker -Dversion=1.19.8 -Dpackaging=aar -DpomFile=sns-camera-photo-document-picker/pom.xml
   - FILE="-Dfile=sns-camera-video-selfie/sns-camera-video-selfie.aar"
   - mvn install:install-file $FILE -DgroupId=com.sumsub.sns -DartifactId=sns-camera-video-selfie -Dversion=1.19.8 -Dpackaging=aar -DpomFile=sns-camera-video-selfie/pom.xml
+  - FILE="-Dfile=sns-nfc/sns-nfc.aar"
+  - mvn install:install-file $FILE -DgroupId=com.sumsub.sns -DartifactId=sns-nfc -Dversion=1.19.8 -Dpackaging=aar -DpomFile=sns-nfc/pom.xml

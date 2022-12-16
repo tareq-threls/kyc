@@ -22,6 +22,7 @@
 
         <module>sns-camera-photo-document-picker</module>
         <module>sns-camera-video-selfie</module>
+        <module>sns-nfc</module>
     </modules>
 
     <dependencies>
